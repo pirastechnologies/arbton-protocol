@@ -1,0 +1,34 @@
+# Security Policy
+
+## Supported Versions
+Only the latest `main` branch is supported.
+
+## Reporting a Vulnerability
+If you discover a security issue in the arbTON contracts or scripts:
+
+1. **Do not open a public issue.**
+2. Contact the maintainers directly:
+   - Telegram: [@arbTON](https://t.me/arbTON_official)
+   
+
+Please provide:
+- Description of the issue
+- Steps to reproduce
+- Possible impact
+
+We aim to acknowledge reports within **48 hours** and provide a fix within **14 days**.
+
+## Scope
+- Smart contracts in `contracts/`
+- Deploy/test scripts in `scripts/`
+- Any infrastructure or workflow defined in this repo
+
+## Out of Scope
+- Third-party dependencies (Node, Tact, etc.)
+- Upstream bugs in TON blockchain itself
+
+## Disclosure
+We follow a **coordinated disclosure** model:
+- Fix the issue
+- Deploy patched contracts
+- Then publish details in release notes
