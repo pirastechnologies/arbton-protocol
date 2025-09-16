@@ -1,0 +1,33 @@
+# Contributing to arbTON Protocol
+
+Thanks for your interest in contributing 🎉
+
+## How to contribute
+1. **Fork** the repo and create your branch from `main`.
+2. Make your changes in `contracts/` or `scripts/`.
+3. Write clear commit messages.
+4. Open a **Pull Request** with a description of:
+   - what you changed
+   - why the change is needed
+   - any tests or checks you performed
+
+## Guidelines
+- Keep code **clean and commented**.
+- For smart contracts: follow [Tact coding style](https://docs.tact-lang.org/).
+- For scripts: follow **TypeScript strict mode**.
+- Avoid pushing `.env` or secrets.
+- Run compilation before PR:
+  ```bash
+  npx tact compile contracts/*.tact --out build
+
+## Issues
+- Use GitHub Issues to report bugs or request features.
+- When reporting, please include:
+	-	environment info (RPC endpoint, Tact version, Node version)
+	-	steps to reproduce
+	-	expected vs actual result
+- ⚠️ Do not use GitHub Issues for security vulnerabilities.
+     Please see SECURITY.md for reporting security issues.
+
+##License
+By contributing, you agree that your contributions will be licensed under the MIT License.
